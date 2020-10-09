@@ -56,6 +56,12 @@ h3 {
 .icon:hover .svg_tablet {
   fill: #2a69a6;
 }
+.icon:hover .svg_setting {
+  fill: #2a69a6;
+}
+.icon:hover .svg_dashboard {
+  fill: #2a69a6;
+}
 
 .svg_setting {
   width: 25px;

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --BG: #121116;
+  --WHITE: #ffffff;
+  --CONTAINER: 250px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text {
+  color: var(--WHITE);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 22px;
+}
+.footer-text {
+  color: var(--WHITE);
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Open Sans", Semibold;
+  text-align: center;
+}
+.Kasper {
+  color: #00e1ff;
+}
+.section {
+  background-color: var(--BG);
+  padding: 120px 828px 38px 842px;
+}
+.container {
+  width: var(--CONTAINER);
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 51px;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px;
+}
+.separator {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 22px;
+}
+.images-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 87px;
+}

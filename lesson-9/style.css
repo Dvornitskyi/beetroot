@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+  border: 24px solid #2b81ac;
+  background-color: #3399cc;
+  max-height: 963px;
+  max-width: 1468px;
+}
+.header-text {
+  margin-top: 38px;
+  margin-bottom: 34px;
+  color: white;
+  font-size: 26px;
+}
+.footer-text {
+  margin-top: 26px;
+  margin-bottom: 138px;
+  color: white;
+  font-size: 20px;
+}
+.section {
+  margin: 0 210px;
+}
+/*.list {
+  display: block;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}*/
+
+.blok-elements {
+  list-style: none;
+  font-size: 0;
+  border: 2px solid white;
+}
+/*&:before:hover {
+  content: "";
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #fff;
+  /* opacity: 0;
+  transition: opacity 0.2s ease;
+}*/
+.blok-elements li {
+  display: inline-block;
+  font-size: 21px;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  height: 150px;
+  padding: 26px;
+  /*opacity: 0.8;*/
+  cursor: pointer;
+  position: relative;
+}
+.blok-elements li:before {
+  content: "";
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #fff;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.blok-elements:hover li:not(:hover):before {
+  opacity: 0.4;
+}
+.blok-elements li:nth-of-type(1) {
+  width: 50%;
+  background-color: #3399cc;
+}
+.blok-elements li:nth-of-type(2) {
+  width: 25%;
+  background-color: #33cccc;
+}
+.blok-elements li:nth-of-type(3) {
+  width: 25%;
+  background-color: #996699;
+}
+.blok-elements li:nth-of-type(4) {
+  width: 25%;
+  background-color: #c24747;
+}
+.blok-elements li:nth-of-type(5) {
+  width: 25%;
+  background-color: #e2674a;
+}
+.blok-elements li:nth-of-type(6) {
+  width: 25%;
+  background-color: #ffcc66;
+}
+.blok-elements li:nth-of-type(7) {
+  width: 25%;
+  background-color: #99cc99;
+}
+.blok-elements li:nth-of-type(8) {
+  width: 25%;
+  background-color: #669999;
+}
+.blok-elements li:nth-of-type(9) {
+  width: 50%;
+  background-color: #cc6699;
+}
+.blok-elements li:nth-of-type(10) {
+  width: 25%;
+  background-color: #339966;
+}
+.blok-elements li:nth-of-type(11) {
+  width: 100%;
+  background-color: #666699;
+}
+.blok-title {
+  margin-bottom: 24px;
+}
+.icon {
+  font-size: 24px;
+  opacity: 0.8;
+}

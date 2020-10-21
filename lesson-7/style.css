@@ -1,0 +1,153 @@
+@import url("fonts/stylesheet.css");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+body {
+  background-color: #434c51;
+  display: flex;
+  flex-direction: column;
+}
+.icons {
+  width: 28px;
+  height: 27px;
+}
+.letter {
+  background-color: white;
+  margin-top: 149px;
+  margin-left: 70px;
+  margin-right: 70px;
+  height: 100%;
+  padding-top: 202px;
+  padding-left: 67px;
+  padding-right: 130px;
+  position: relative;
+}
+.letter::before {
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #e8eced;
+  position: absolute;
+  left: 55px;
+  top: 0;
+}
+.letter__vertical-line {
+  padding-left: 55px;
+}
+.letter__up-text {
+  color: #b4b4b4;
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  font-weight: 400px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 6.72px;
+  font-weight: lighter;
+}
+.letter__middle-text {
+  color: #2a2a2a;
+  font-family: "Futura PT - Heavy", sans-serif;
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 73.52px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 5.28px;
+  margin-top: 47px;
+  margin-bottom: 21px;
+  font-weight: bolder;
+}
+.letter__bottom-text {
+  color: #8f8f8f;
+  font-family: Georgia;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 62.44px;
+  font-weight: lighter;
+}
+.letter__text {
+  list-style-type: none;
+  margin-bottom: 55px;
+}
+.letter__first-paragraph {
+  color: #000000;
+  font-family: Georgia;
+  font-size: 27px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 40.38px;
+}
+.first-paragraph-italic {
+  font-family: "Georgia - Italic";
+  font-style: italic;
+}
+.letter__second-paragraph {
+  color: #000000;
+  font-family: Georgia;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 40.38px;
+  margin-top: 39px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 47px;
+  right: -70px;
+  z-index: 2;
+}
+.header__elements {
+  width: 876px;
+  height: 187px;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  padding-left: 64px;
+}
+.header__line {
+  margin-top: 21px;
+  border: 1px solid #ffffff;
+  opacity: 0.1;
+}
+.header__title {
+  margin-top: 50px;
+  margin-bottom: 13px;
+}
+.header__icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 822px;
+  height: 76px;
+  background-color: #fbc02d;
+  margin-left: 64px;
+  list-style-type: none;
+}
+.header__title {
+  width: 57px;
+  height: 10px;
+  color: #767676;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  font-weight: 400;
+}
+.header__input {
+  width: 342px;
+  height: 40px;
+  color: #fefefe;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 400;
+}

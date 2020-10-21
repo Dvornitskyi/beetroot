@@ -1,0 +1,54 @@
+h1{
+    width: 700px;
+	height: 40px;
+	background:firebrick;
+    color: white;
+    text-align: center;
+}
+.sunset{
+    width: 680px;
+}
+div{
+    width: 670px;
+}
+.italic{
+    font-style:italic;
+}
+.bold
+{
+    font-weight: bold;
+}
+.bluebolditalic{
+    font-style:italic;
+    font-weight:bold;
+    color: blue;
+
+}
+.blue{
+color: blue;
+}
+.center{
+    text-align: center;
+}
+.one{
+border-style: dashed;
+}
+.two{
+    border-style: dashed;
+    }
+.three{
+    border-style: dashed;
+    }
+.four{
+    border-style: dashed;
+     }
+.five{
+border-style: dashed;
+}
+h3{
+    width: 700px;
+	height: 25px;
+	background: black;
+    color: white;
+    text-align: center;
+}

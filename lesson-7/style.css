@@ -79,7 +79,7 @@ body {
   list-style-type: none;
   margin-bottom: 55px;
 }
-.letter__text__first-paragraph {
+.letter__first-paragraph {
   color: #000000;
   font-family: Georgia;
   font-size: 27px;
@@ -92,7 +92,7 @@ body {
   font-family: "Georgia - Italic";
   font-style: italic;
 }
-.letter__text__second-paragraph {
+.letter__second-paragraph {
   color: #000000;
   font-family: Georgia;
   font-size: 27px;
@@ -116,12 +116,12 @@ body {
   flex-direction: column;
   padding-left: 64px;
 }
-.header__elements__line {
+.header__line {
   margin-top: 21px;
   border: 1px solid #ffffff;
   opacity: 0.1;
 }
-.header__elements__title {
+.header__title {
   margin-top: 50px;
   margin-bottom: 13px;
 }
@@ -135,7 +135,7 @@ body {
   margin-left: 64px;
   list-style-type: none;
 }
-.header__elements__title {
+.header__title {
   width: 57px;
   height: 10px;
   color: #767676;
@@ -143,7 +143,7 @@ body {
   font-size: 15px;
   font-weight: 400;
 }
-.header__elements__input {
+.header__input {
   width: 342px;
   height: 40px;
   color: #fefefe;

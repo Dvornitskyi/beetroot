@@ -1,0 +1,58 @@
+.fresh {
+  width: 370px;
+  height: 310px;
+  position: relative;
+  z-index: 1;
+}
+.fresh:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.fresh__bg-gradient {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 00%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.fresh__text {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  z-index: 3;
+}
+.fresh__date {
+  list-style-type: none;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgba(38, 38, 38, 0.5);
+}
+.fresh__number {
+  font-family: $base-font;
+  font-size: 32px;
+  font-weight: 700;
+}
+.fresh__letters {
+  font-family: $base-font;
+  font-size: 21px;
+  font-weight: 400;
+}
+.fresh__title {
+  padding-top: 120px;
+  width: 307px;
+  font-size: 20px;
+  font-family: $base-font;
+  font-weight: 700;
+}
+.fresh__order-time {
+  padding-top: 30px;
+  font-family: $base-font;
+  font-size: 13px;
+  font-weight: 300;
+}

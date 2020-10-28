@@ -1,0 +1,17 @@
+.more {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.more__text {
+  background-color: $BUTTOM-COLOR;
+  width: 200px;
+  height: 55px;
+  font-family: $base-font;
+  font-size: 20px;
+  font-weight: 300;
+  border: 0;
+}
+.more__text:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}

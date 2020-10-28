@@ -1,0 +1,17 @@
+//COLORS
+$BG-COLOR: #b07cf7;
+$BUTTOM-COLOR: #f72b3b;
+$TEXT-COLOR: white;
+
+//FONTS
+$base-font: "Raleway", sans-serif;
+$base-font-size: 20px;
+
+//FONT SIZE
+@function calcRem($size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}rem;
+}
+
+$H24: calcRem(24px); //1.5 rem
+$H18: calcRem(18px);

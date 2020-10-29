@@ -12,7 +12,7 @@
     font-size: 50px;
     font-weight: 400;
   }
-  &__title {
+  &__list {
     width: 550px;
     display: flex;
     align-items: center;
@@ -48,12 +48,16 @@
     font-weight: 300;
     width: 200px;
     height: 55px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     background-color: $orange;
     color: $white;
     text-transform: uppercase;
   }
+  &__text-buttom:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+  }
   &__nav:hover {
+    transition: 0.5s;
     border-top: 3px solid $orange;
   }
   &__icon {
@@ -65,4 +69,7 @@
     width: 24px;
     height: 40px;
   }
+}
+a:visited {
+  color: $black;
 }

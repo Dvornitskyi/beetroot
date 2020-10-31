@@ -1,0 +1,73 @@
+.contact {
+  background-image: url(/assets/images/bg-contact.png);
+  width: 100%;
+  height: 866px;
+  font-family: $base-font;
+  color: $footer-bg-color;
+  &__header {
+    padding-top: 101px;
+    max-width: 346px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  &__heading {
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+  &__title {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+  &__two-section {
+    margin-top: 46px;
+    @include flex(space-evenly);
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+  }
+  &__input {
+    height: 50px;
+    background-color: $entry-field-color;
+    margin-bottom: 15px;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    border-left: 5px solid transparent;
+    transition-property: border-color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+    outline: none;
+    color: $text-color;
+    &--large {
+      height: 250px;
+    }
+  }
+  &__input:focus {
+    border-left: 5px solid $active-entry-field-color;
+    background-color: rgba(0, 196, 196, 1);
+  }
+  &__input::placeholder {
+    color: $text-color;
+    opacity: 0.5;
+  }
+  &__my-contact {
+    width: 23%;
+    color: $footer-bg-color;
+  }
+  &__name-data {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  &__text-data {
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 35px;
+  }
+}

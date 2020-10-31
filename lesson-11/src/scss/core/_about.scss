@@ -1,0 +1,28 @@
+.about {
+  height: 700px;
+  width: 100%;
+  background-color: $blue-white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &__right-text {
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    max-width: 499px;
+  }
+  &__title {
+    font-family: $base-font;
+    font-size: 90px;
+    font-weight: 700;
+  }
+  &__paragraph-first {
+    margin-bottom: 20px;
+  }
+}
+.paragraph {
+  font-family: $base-font;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px;
+}

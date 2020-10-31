@@ -31,7 +31,9 @@
     height: 100px;
     background-color: $white;
     margin-bottom: 20px;
-    //@include flex(center, center);
+  }
+  &__element-list:hover {
+    background-color: $tomato-bg;
   }
   &__right {
     width: 50%;

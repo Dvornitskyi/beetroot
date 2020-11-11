@@ -1,0 +1,51 @@
+.tomato {
+  width: 100%;
+  height: 800px;
+  background-color: $tomato-bg;
+  @include flex(center, center);
+  padding-left: 6%;
+  &__left {
+    width: 50%;
+  }
+  &__buttom {
+    height: 100%;
+    display: flex;
+  }
+  &__product {
+    @include flex(center, center);
+    width: 66%;
+    height: 100%;
+    border-right: 1px solid #9d9d9d;
+  }
+  &__icon {
+    @include flex(center, center);
+    width: 34%;
+    height: 100%;
+  }
+  &__buttom-svg {
+    height: 55px;
+    width: 55px;
+  }
+  &__element-list {
+    width: 66%;
+    height: 100px;
+    background-color: $white;
+    margin-bottom: 20px;
+  }
+  &__element-list:hover {
+    background-color: $tomato-bg;
+  }
+  &__right {
+    width: 50%;
+    position: relative;
+    @include flex(center, center);
+  }
+  &__text {
+    font-size: 90px;
+    font-weight: 700;
+    color: $white;
+    position: absolute;
+    top: 200px;
+    left: 0;
+  }
+}
